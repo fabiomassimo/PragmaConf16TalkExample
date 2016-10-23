@@ -1,0 +1,14 @@
+//
+//  SPM.xcconfig
+//  MyAwesomeFramework
+//
+//  Created by Fabio Milano on 13/10/2016.
+//  Copyright © 2016 Fabio Milano. All rights reserved.
+//
+
+#include "MyAwesomeConfig.xcconfig"
+
+LIBRARY_SEARCH_PATHS[sdk=macosx*] = $(PROJECT_DIR)/** $(inherited)
+LIBRARY_SEARCH_PATHS[sdk=iphone*] = $(PROJECT_DIR)/** $(inherited)
+LIBRARY_SEARCH_PATHS[sdk=watch*] = $(PROJECT_DIR)/** $(inherited)
+LIBRARY_SEARCH_PATHS[sdk=appletv*] = $(PROJECT_DIR)/** $(inherited)

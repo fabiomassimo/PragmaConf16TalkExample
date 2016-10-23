@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		_LinkFileRef_PromiseKit_via_MyAwesomeFramework /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PromiseKit" /* PromiseKit.framework */; };
+		__src_cc_ref_MyAwesomeFramework/MyAwesomeCode.swift /* MyAwesomeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_MyAwesomeFramework/MyAwesomeCode.swift /* MyAwesomeCode.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/DispatchQueue+Promise.swift" /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/DispatchQueue+Promise.swift" /* DispatchQueue+Promise.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Promise+Properties.swift" /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Promise+Properties.swift" /* Promise+Properties.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Promise.swift" /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Promise.swift" /* Promise.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/State.swift" /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/State.swift" /* State.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/SwiftPM.swift" /* SwiftPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/SwiftPM.swift" /* SwiftPM.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Zalgo.swift" /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Zalgo.swift" /* Zalgo.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/after.swift" /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/after.swift" /* after.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/join.swift" /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/join.swift" /* join.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/race.swift" /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/race.swift" /* race.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/when.swift" /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/when.swift" /* when.swift */; };
+		"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/wrap.swift" /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/wrap.swift" /* wrap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E516990C1DAF4D0400A90A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PromiseKit";
+			remoteInfo = PromiseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		__PBXFileRef_MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig /* MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_MyAwesomeFramework/MyAwesomeCode.swift /* MyAwesomeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAwesomeCode.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/DispatchQueue+Promise.swift" /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Promise+Properties.swift" /* Promise+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Promise+Properties.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Promise.swift" /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/State.swift" /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/SwiftPM.swift" /* SwiftPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPM.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Zalgo.swift" /* Zalgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zalgo.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/after.swift" /* after.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = after.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/join.swift" /* join.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = join.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/race.swift" /* race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = race.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/when.swift" /* when.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = when.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/wrap.swift" /* wrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrap.swift; sourceTree = "<group>"; };
+		"_____Product_MyAwesomeFramework" /* MyAwesomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyAwesomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_PromiseKit" /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_MyAwesomeFramework" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PromiseKit_via_MyAwesomeFramework /* PromiseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_PromiseKit" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_PromiseKit" /* PromiseKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_PromiseKit" /* PromiseKit.framework */,
+				"_____Product_MyAwesomeFramework" /* MyAwesomeFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig /* MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_MyAwesomeFramework" /* MyAwesomeFramework */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_MyAwesomeFramework" /* MyAwesomeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_MyAwesomeFramework/MyAwesomeCode.swift /* MyAwesomeCode.swift */,
+			);
+			path = MyAwesomeFramework;
+			sourceTree = "<group>";
+		};
+		"_______Group_PromiseKit" /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/after.swift" /* after.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/DispatchQueue+Promise.swift" /* DispatchQueue+Promise.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/join.swift" /* join.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Promise+Properties.swift" /* Promise+Properties.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Promise.swift" /* Promise.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/race.swift" /* race.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/State.swift" /* State.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/SwiftPM.swift" /* SwiftPM.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/when.swift" /* when.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/wrap.swift" /* wrap.swift */,
+				"__PBXFileRef_Packages/PromiseKit-4.0.3/Sources/Zalgo.swift" /* Zalgo.swift */,
+			);
+			name = PromiseKit;
+			path = "Packages/PromiseKit-4.0.3/Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_MyAwesomeFramework" /* MyAwesomeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_MyAwesomeFramework" /* Build configuration list for PBXNativeTarget "MyAwesomeFramework" */;
+			buildPhases = (
+				CompilePhase_MyAwesomeFramework /* Sources */,
+				"___LinkPhase_MyAwesomeFramework" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PromiseKit /* PBXTargetDependency */,
+			);
+			name = MyAwesomeFramework;
+			productName = MyAwesomeFramework;
+			productReference = "_____Product_MyAwesomeFramework" /* MyAwesomeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_PromiseKit" /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PromiseKit" /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				CompilePhase_PromiseKit /* Sources */,
+				"___LinkPhase_PromiseKit" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = "_____Product_PromiseKit" /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "MyAwesomeFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_PromiseKit" /* PromiseKit */,
+				"______Target_MyAwesomeFramework" /* MyAwesomeFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_MyAwesomeFramework /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_MyAwesomeFramework/MyAwesomeCode.swift /* MyAwesomeCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_PromiseKit /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/after.swift" /* after.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/DispatchQueue+Promise.swift" /* DispatchQueue+Promise.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/join.swift" /* join.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Promise+Properties.swift" /* Promise+Properties.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Promise.swift" /* Promise.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/race.swift" /* race.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/State.swift" /* State.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/SwiftPM.swift" /* SwiftPM.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/when.swift" /* when.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/wrap.swift" /* wrap.swift in Sources */,
+				"__src_cc_ref_Packages/PromiseKit-4.0.3/Sources/Zalgo.swift" /* Zalgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_PromiseKit /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PromiseKit" /* PromiseKit */;
+			targetProxy = E516990C1DAF4D0400A90A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_MyAwesomeFramework /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = MyAwesomeFramework.xcodeproj/MyAwesomeFramework_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MyAwesomeFramework;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_PromiseKit /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = MyAwesomeFramework.xcodeproj/PromiseKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PromiseKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_MyAwesomeFramework" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = MyAwesomeFramework.xcodeproj/MyAwesomeFramework_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MyAwesomeFramework;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_PromiseKit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = MyAwesomeFramework.xcodeproj/PromiseKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PromiseKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig /* MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig /* MyAwesomeFramework.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "MyAwesomeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_MyAwesomeFramework" /* Build configuration list for PBXNativeTarget "MyAwesomeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_MyAwesomeFramework" /* Debug */,
+				_ReleaseConf_MyAwesomeFramework /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PromiseKit" /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PromiseKit" /* Debug */,
+				_ReleaseConf_PromiseKit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
